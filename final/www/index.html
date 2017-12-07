@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>stopwatch</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styling.css" rel="stylesheet">
+</head>
+<body>
+<br><br><br><br><br><br><br>
+<span>STOPWATCH</span>
+<P>chai</P>
+<br><br><br><br>
+<input class="stopwatch" id="stopwatch" type="text" value="0:0:0" ><br>
+
+	<input class="button" id="startandstopbutton" type="button" value="Start/Stop" onClick="startandstop();"><br>
+
+	<input class="button" id="marklapbutton" type="button" value="Split/Mark Lap" onClick="marklap();" ><br>
+
+	<input class="button" id="resetbutton" type="button" value="Reset Stopwatch" onClick="resetstopwatch();"><br>
+
+	
+	<textarea class="lap" id="lapdetails" rows="10" cols="2"></textarea>
+
+
+         
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js">
+    </script>
+    <script src="js/watch.js"></script>  
+</body>
+</html>
